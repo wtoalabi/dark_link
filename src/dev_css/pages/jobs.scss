@@ -36,6 +36,12 @@
         border: 1px solid $accent;
       }
     }
+    .jobs-home-soho__search-carousel-container{
+      @extend .background;
+      h2{
+        color: $light;
+      }
+    }
     .jobs-home-galapagos-promo-board section{
       @extend .background;
       p, span{

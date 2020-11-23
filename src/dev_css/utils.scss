@@ -3,3 +3,9 @@
     padding: 1rem;
     border-radius: 33px;
 }
+::-webkit-input-placeholder {
+    color: $light;
+}
+::-webkit-textfield-decoration-container {
+    color: $light;
+}

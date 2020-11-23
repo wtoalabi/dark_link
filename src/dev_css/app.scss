@@ -1,12 +1,13 @@
 @import "mixins";
 
 .dark_theme {
+  @import "utils";
   @import "header";
   @import "pages/feed";
   @import "pages/network";
   @import "pages/jobs";
+  @import "pages/message";
   @import "chat";
-  @import "utils";
 }
 .theme_icon {
   width: 35px;

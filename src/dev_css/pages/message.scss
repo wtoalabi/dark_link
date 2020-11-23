@@ -1,0 +1,128 @@
+#messaging {
+  background-color: $deep-light;
+
+  li.artdeco-dropdown__item {
+    color: $light;
+  }
+
+  .msg-messaging-container {
+    .core-rail {
+      .msg-conversations-container {
+        .msg-conversations-container__title-row {
+          background-color: $deep;
+
+          h1, svg {
+            color: $light;
+          }
+        }
+
+        .msg-conversations-container__conversations-list {
+          .msg-premium-mailboxes__mailbox a {
+            color: $light;
+          }
+
+          .msg-premium-mailboxes__mailbox svg {
+            color: $accent;
+          }
+
+          li.msg-conversation-listitem a {
+            .msg-conversation-card__rows {
+              .msg-conversation-card__list-actions {
+                svg {
+                  color: $accent;
+                }
+              }
+
+              h3, time {
+                color: $accent;
+              }
+
+              .msg-conversation-card__row p span {
+                color: $light;
+              }
+            }
+          }
+        }
+
+        .msg-search-form {
+          svg {
+            color: $light;
+          }
+
+        }
+      }
+
+      .msg-thread {
+        time{
+          color: $light;
+        }
+        .artdeco-entity-lockup__content{
+          a,.artdeco-entity-lockup__subtitle{
+            color: $light;
+
+          }
+          span{
+            color: $accent;
+          }
+
+        }
+        .msg-sponsored-conversation-thread {
+          .msg-title-bar {
+            .msg-entity-lockup dl {
+              dd, dt h2 {
+                color: $light;
+              }
+            }
+          }
+
+          .msg-s-message-group__name {
+            color: $accent;
+          }
+
+          .msg-s-message-list-container p {
+            color: $light;
+          }
+        }
+
+        .msg-title-bar {
+          background-color: $deep;
+          dl {
+            dt h2, dd div {
+              color: $light;
+            }
+          }
+          .artdeco-dropdown svg{
+            color: $light;
+          }
+        }
+        .msg-s-message-list{
+          .msg-s-message-group__meta{
+            span, time{
+              color: $light;
+            }
+          }
+          .msg-s-event-listitem__message-bubble p{
+            color: $light;
+          }
+        }
+        form .msg-form__msg-content-container{
+          p{
+            color: $light;
+          }
+        }
+        footer{
+          background-color: $deep;
+         button, button svg{
+            color: $light;
+          }
+          button{
+            border: 1px solid;
+          }
+        }
+      }
+    }
+
+    aside {
+    }
+  }
+}

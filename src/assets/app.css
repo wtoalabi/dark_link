@@ -1,3 +1,17 @@
+.dark_theme .iframe_format {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 33px;
+}
+
+.dark_theme ::-webkit-input-placeholder {
+  color: #f0f8ff !important;
+}
+
+.dark_theme ::-webkit-textfield-decoration-container {
+  color: #f0f8ff !important;
+}
+
 .dark_theme header.global-nav .global-nav__content,
 .dark_theme header#global-nav {
   background: #16212b !important;
@@ -299,6 +313,7 @@
 .dark_theme #careers .background,
 .dark_theme #careers section section.jobs-blended-container,
 .dark_theme #careers section .jobs-home-galapagos-promo-board section,
+.dark_theme #careers section .jobs-home-soho__search-carousel-container,
 .dark_theme #careers section .jobs-home-soho-suggested-search__container,
 .dark_theme #careers section .jobs-home-soho__search-box-container,
 .dark_theme #careers section nav {
@@ -332,6 +347,10 @@
 .dark_theme #careers section .jobs-home-soho-suggested-search__container a {
   padding: 0.8rem;
   border: 1px solid #1da1f2 !important;
+}
+
+.dark_theme #careers section .jobs-home-soho__search-carousel-container h2 {
+  color: #f0f8ff !important;
 }
 
 .dark_theme #careers section .jobs-home-galapagos-promo-board section p,
@@ -390,6 +409,113 @@
   color: #f0f8ff !important;
 }
 
+.dark_theme #messaging {
+  background-color: #182b3c !important;
+}
+
+.dark_theme #messaging li.artdeco-dropdown__item {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__title-row {
+  background-color: #16212b !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__title-row h1,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__title-row svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__conversations-list .msg-premium-mailboxes__mailbox a {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__conversations-list .msg-premium-mailboxes__mailbox svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__conversations-list li.msg-conversation-listitem a .msg-conversation-card__rows .msg-conversation-card__list-actions svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__conversations-list li.msg-conversation-listitem a .msg-conversation-card__rows h3,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__conversations-list li.msg-conversation-listitem a .msg-conversation-card__rows time {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-conversations-container__conversations-list li.msg-conversation-listitem a .msg-conversation-card__rows .msg-conversation-card__row p span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-conversations-container .msg-search-form svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread time {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .artdeco-entity-lockup__content a,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .artdeco-entity-lockup__content .artdeco-entity-lockup__subtitle {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .artdeco-entity-lockup__content span {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-sponsored-conversation-thread .msg-title-bar .msg-entity-lockup dl dd,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-sponsored-conversation-thread .msg-title-bar .msg-entity-lockup dl dt h2 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-sponsored-conversation-thread .msg-s-message-group__name {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-sponsored-conversation-thread .msg-s-message-list-container p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-title-bar {
+  background-color: #16212b !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-title-bar dl dt h2,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-title-bar dl dd div {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-title-bar .artdeco-dropdown svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-s-message-list .msg-s-message-group__meta span,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-s-message-list .msg-s-message-group__meta time {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread .msg-s-message-list .msg-s-event-listitem__message-bubble p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread form .msg-form__msg-content-container p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread footer {
+  background-color: #16212b !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread footer button,
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread footer button svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #messaging .msg-messaging-container .core-rail .msg-thread footer button {
+  border: 1px solid;
+}
+
 .dark_theme aside#msg-overlay header {
   background-color: #16212b !important;
 }
@@ -400,12 +526,6 @@
 
 .dark_theme aside#msg-overlay header .msg-overlay-bubble-header__controls button svg {
   color: #1da1f2 !important;
-}
-
-.dark_theme .iframe_format {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 33px;
 }
 
 .theme_icon {
