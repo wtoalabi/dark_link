@@ -1,0 +1,98 @@
+@import "../mixins";
+
+#voyager-feed {
+  background: $deep-light;
+
+  .ember-view .feed-identity-module__actor-meta {
+    background-color: $deep;
+  }
+
+  aside.left-rail .artdeco-card, aside.left-rail .entity-list li.entity-list-item a {
+    background-color: $deep;
+  }
+
+  .ember-view {
+    .feed-identity-module__actor-meta .profile-rail-card__actor-link,
+    .feed-identity-module__actor-meta p.identity-headline, li.entity-list-item .ember-view, .premium-upsell-link a, .premium-upsell-link h3, a.ember-view span {
+      color: $light;
+    }
+
+    svg, section header h2.community-panel-interest-package__header a.ember-view span, .community-panel-interest-package__header {
+      color: $accent;
+    }
+
+    .sticky .artdeco-card a.community-panel__discover-cta {
+      color: $light;
+    }
+
+    .core-rail {
+
+      .artdeco-dropdown button .display-flex {
+        span:nth-child(1),span:nth-child(3) {
+          color: $accent;
+        }
+        span:nth-child(2) {
+          color: $light;
+        }
+      }
+      .share-box-feed-entry__wrapper.artdeco-card {
+        background: $deep;
+        border: 1px solid $light;
+        box-shadow: -1px 1px 32px -17px $light;
+
+        .display-flex button {
+          color: $light;
+        }
+      }
+
+      .ember-view .relative .feed-shared-update-v2 {
+        background: #16212b !important;
+        color: $accent;
+        border: 1px solid #fff !important;
+
+        .display-flex .feed-shared-actor__meta span.feed-shared-actor__description, svg {
+          color: $accent;
+        }
+
+        .display-flex .feed-shared-actor__meta span.feed-shared-actor__title {
+          color: $light;
+        }
+
+        .feed-shared-update-v2__description-wrapper div.ember-view span span {
+          color: $light;
+        }
+        .feed-shared-update-v2__content .flex-grow-1 .display-flex{
+          .feed-shared-article__section h2 span{
+            color: #000 !important;
+          }
+        }
+        .social-details-social-activity {
+          .social-details-social-counts button span{
+            color: $light;
+          }
+          .feed-shared-social-actions span button .artdeco-button__text{
+            color: $light;
+          }
+        }
+      }
+
+      .share-box-feed-entry__bottom-bar-wrapper .artdeco-button__text {
+        color: $light;
+      }
+
+    }
+    aside.right-rail .mb2 section.artdeco-card .feed-follows-module{
+      background: $deep;
+      border: $light 1px solid;
+      border-radius: 9px;
+      .feed-follows-module__title h2{
+        color: $light;
+      }
+      .feed-follows-module__list li .feed-follows-module-recommendation__description p{
+        color: $accent;
+      }
+    }
+  }
+
+}
+

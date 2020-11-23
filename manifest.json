@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Turn LinkedIn Dark Theme On",
+  "description": "This extension implements dark theme for LinkedIn",
+  "version": "2",
+  "web_accessible_resources": [
+    "images/*"
+  ],
+  "content_scripts": [{
+    "css": ["src/assets/app.css"],
+    "js": ["src/assets/app.js"],
+    "matches": ["https://www.linkedin.com/*"]
+  }]
+}

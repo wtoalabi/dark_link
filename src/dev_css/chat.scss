@@ -1,0 +1,10 @@
+@import "mixins";
+aside#msg-overlay header{
+  background-color: $deep;
+  .msg-overlay-bubble-header__details button h4 span {
+    color: $light;
+  }
+  .msg-overlay-bubble-header__controls button svg{
+    color: $accent;
+  }
+}

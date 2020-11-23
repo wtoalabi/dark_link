@@ -1,0 +1,189 @@
+aside.left-rail .sticky .artdeco-card section {
+  .artdeco-dropdown {
+    background: $deep;
+
+    .artdeco-button__text {
+      background: $deep;
+      color: $light;
+    }
+
+    h2 {
+      color: $light;
+      text-align: center;
+    }
+
+    .artdeco-dropdown__item a {
+      .mn-community-summary__entity-info {
+        color: $light;
+
+        .mr4 {
+          color: $accent;
+        }
+      }
+
+      .pl3 {
+        color: $light;
+      }
+    }
+  }
+
+  .ad-banner-container iframe body main {
+    background: $deep;
+
+    section .ta-creative {
+      color: $accent;
+      background: $deep;
+
+      .ta-creative__headline a {
+        color: $light;
+      }
+
+      .ta-creative__description a {
+        color: $light;
+      }
+    }
+  }
+}
+
+.core-rail .ember-view {
+  background-color: $deep;
+
+  .ember-view .artdeco-list .ember-view .display-flex .invitation-card__action-container {
+    button.artdeco-button--tertiary span {
+      color: $light;
+    }
+
+    button.artdeco-button--secondary {
+      border: #fff solid 1px;
+    }
+  }
+
+  .artdeco-card header .ember-view span {
+    color: $light;
+  }
+
+  .artdeco-card header h2 {
+    color: $light;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .artdeco-list {
+    .display-flex {
+      .invitation-card__details {
+        a {
+          span {
+            color: white;
+
+            .invitation-card__title {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .invitation-card__picture {
+    background-color: $deep;
+  }
+
+  .ember-view ul.ember-view .discover-entity-card .ember-view section {
+
+    .discover-entity-type-card__bottom-container {
+      .ember-view .member-insights span {
+        color: $light;
+      }
+    }
+  }
+
+  .discover-entity-list li.discover-entity-card .display-flex section {
+    .discover-person-follow-card__info-container {
+      .discover-person-follow-card__name {
+        color: $accent;
+      }
+
+      span.discover-person-follow-card__occupation {
+        color: $light;
+      }
+    }
+
+    .discover-series-card__info {
+      span.discover-series-card__link.t-bold {
+        color: $light;
+      }
+
+      span.discover-series-card__link {
+        color: $accent;
+      }
+
+    }
+
+    a.ember-view .discover-series-card__link span {
+      color: $light;
+    }
+
+    .discover-entity-type-card__info-container--no-insights, .discover-entity-type-card__info-container {
+      span.discover-company-card__name, span.discover-person-card__name, span.discover-entity-type-card__bottom-container .member-insights__reason {
+        color: $light;
+      }
+
+      span.discover-company-card__followers, span.discover-person-card__occupation, span.discover-entity-type-card__bottom-container svg {
+        color: $accent;
+      }
+    }
+
+    .discover-event-card__name, .discover-group-card__name, .discover-hashtag-card__topic {
+      color: $accent;
+    }
+
+    .t-black--light, .discover-group-card__members, .discover-hashtag-card__followers {
+      color: $light;
+    }
+  }
+}
+
+.two-column-with-left-rail .core-rail .artdeco-card .ember-view .mn-cohort-view__heading {
+  h2 {
+    color: $light;
+  }
+
+  button span {
+    color: $light;
+  }
+}
+
+.core-rail .ember-view .ember-view .ember-view .discover-entity-card .display-flex section .discover-entity-type-card__info-container span {
+  color: $light;
+}
+
+.core-rail .ember-view .ember-view .ember-view .discover-entity-card .display-flex section .discover-entity-type-card__bottom-container .ember-view button span.member-insights__reason {
+  color: $light;
+}
+
+.core-rail .ember-view .ember-view .ember-view .discover-entity-card .display-flex section .discover-entity-type-card__bottom-container .ember-view button svg {
+  color: $accent;
+}
+
+.two-column-with-left-rail .core-rail section {
+  header {
+    background-color: $deep;
+  }
+
+  footer {
+    background-color: $deep;
+  }
+}
+
+.two-column-with-left-rail .core-rail .ember-view {
+  header a span {
+    color: $light;
+  }
+
+  section header h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: $light;
+  }
+}
+

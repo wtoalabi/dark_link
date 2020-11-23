@@ -1,0 +1,35 @@
+#careers {
+  background-color: $deep-light;
+
+  section {
+    nav {
+      background-color: $deep;
+
+      a span, button {
+        color: $light;
+      }
+
+      a svg {
+        color: $accent;
+      }
+    }
+    .jobs-home-soho__search-box-container{
+      background-color: $deep;
+      h2{
+        color: $light;
+      }
+    }
+    .jobs-home-soho-suggested-search__container{
+      background-color: $deep;
+      h2{
+        color: $light;
+      }
+      button,a{
+        color: $light;
+      }
+       a{
+        border: 1px solid $accent;
+      }
+    }
+  }
+}

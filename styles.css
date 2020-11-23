@@ -1,0 +1,64 @@
+.dark_theme header.global-nav .global-nav__content,
+.dark_theme header#global-nav,
+.dark_theme .ember-view .feed-identity-module__actor-meta {
+  background: #16212b !important;
+}
+
+.dark_theme svg.global-nav__icon,
+.dark_theme li.global-nav__primary-item a span.global-nav__primary-link-text,
+.dark_theme li.global-nav__primary-item a span.global-nav__primary-link-text,
+.dark_theme .global-nav__me button span.global-nav__primary-link-text,
+.dark_theme .ember-view button span.global-nav__primary-link-text,
+.dark_theme .ember-view .feed-identity-module__actor-meta .profile-rail-card__actor-link,
+.dark_theme .ember-view .feed-identity-module__actor-meta p.identity-headline {
+  color: #f0f8ff !important;
+}
+
+.dark_theme svg.global-nav__icon:hover,
+.dark_theme li.global-nav__primary-item a span.global-nav__primary-link-text:hover,
+.dark_theme li.global-nav__primary-item a span.global-nav__primary-link-text:hover,
+.dark_theme .global-nav__me button span.global-nav__primary-link-text:hover,
+.dark_theme .ember-view button span.global-nav__primary-link-text:hover {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #mynetwork.extended,
+.dark_theme #voyager-feed {
+  background: #182b3c !important;
+}
+
+.dark_theme a {
+  color: white !important;
+}
+
+.dark_theme #ads-container section.ta-creative a,
+.dark_theme #ads-container section.ta-creative p {
+  color: white !important;
+}
+
+#ads-container * {
+  color: white !important;
+}
+
+.theme_icon {
+  width: 35px;
+  right: 6px;
+  position: absolute;
+  top: 9px;
+  cursor: pointer;
+}
+
+[data-tooltip]:before {
+  position: absolute;
+  content: attr(data-tooltip);
+  opacity: 0;
+}
+
+[data-tooltip]:hover:before {
+  opacity: 1;
+}
+
+[data-tooltip]:not([data-tooltip-persistent]):before {
+  pointer-events: none;
+}
+

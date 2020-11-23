@@ -1,0 +1,17 @@
+@import "mixins";
+
+.dark_theme {
+  @import "header";
+  @import "pages/feed";
+  @import "pages/network";
+  @import "pages/jobs";
+  @import "chat";
+  @import "utils";
+}
+.theme_icon {
+  width: 35px;
+  right: 6px;
+  position: absolute;
+  top: 9px;
+  cursor: pointer;
+}

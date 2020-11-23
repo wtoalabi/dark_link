@@ -1,0 +1,15 @@
+@import "mixins";
+header.global-nav .global-nav__content, header#global-nav{
+  background: $deep;
+}
+
+svg.global-nav__icon, li.global-nav__primary-item a span.global-nav__primary-link-text, li.global-nav__primary-item a span.global-nav__primary-link-text, .global-nav__me button span.global-nav__primary-link-text, .ember-view button span.global-nav__primary-link-text{
+  color: $light;
+}
+
+svg.global-nav__icon:hover, li.global-nav__primary-item a span.global-nav__primary-link-text:hover, li.global-nav__primary-item a span.global-nav__primary-link-text:hover, .global-nav__me button span.global-nav__primary-link-text:hover, .ember-view button span.global-nav__primary-link-text:hover {
+  color: $accent;
+}
+.global-nav__primary-items li.global-nav__primary-item--divider{
+  border-left: 1px solid #525050 !important;
+}
