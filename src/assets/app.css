@@ -296,8 +296,15 @@
   background-color: #182b3c !important;
 }
 
+.dark_theme #careers .background,
+.dark_theme #careers section section.jobs-blended-container,
+.dark_theme #careers section .jobs-home-galapagos-promo-board section,
+.dark_theme #careers section .jobs-home-soho-suggested-search__container,
+.dark_theme #careers section .jobs-home-soho__search-box-container,
 .dark_theme #careers section nav {
-  background-color: #16212b !important;
+  background-color: #182b3c !important;
+  border: #fff solid 1px !important;
+  border-radius: 12px !important;
 }
 
 .dark_theme #careers section nav a span,
@@ -309,16 +316,8 @@
   color: #1da1f2 !important;
 }
 
-.dark_theme #careers section .jobs-home-soho__search-box-container {
-  background-color: #16212b !important;
-}
-
 .dark_theme #careers section .jobs-home-soho__search-box-container h2 {
   color: #f0f8ff !important;
-}
-
-.dark_theme #careers section .jobs-home-soho-suggested-search__container {
-  background-color: #16212b !important;
 }
 
 .dark_theme #careers section .jobs-home-soho-suggested-search__container h2 {
@@ -331,7 +330,64 @@
 }
 
 .dark_theme #careers section .jobs-home-soho-suggested-search__container a {
+  padding: 0.8rem;
   border: 1px solid #1da1f2 !important;
+}
+
+.dark_theme #careers section .jobs-home-galapagos-promo-board section p,
+.dark_theme #careers section .jobs-home-galapagos-promo-board section span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #careers section .jobs-home-galapagos-promo-board section footer a {
+  border: 1px solid transparent;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii h2 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii p {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main a {
+  background: #16212b;
+  border: #fff 1px solid;
+  border-radius: 10px;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main a time {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main a .job-card-container__apply-method {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main a .artdeco-entity-lockup .artdeco-entity-lockup__title,
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main a .artdeco-entity-lockup .job-card-container__company-name {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main a .artdeco-entity-lockup .job-card-container__metadata-item {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main .job-card-square__actions-container .job-card-square__badge {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main .job-card-square__insight .job-flavors__flavor svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #careers section section.jobs-blended-container .jobs-jymbii ul li.jobs-jymbii__list-item .job-card-square__main .job-card-square__insight .job-flavors__flavor span.job-flavors__label {
+  color: #f0f8ff !important;
 }
 
 .dark_theme aside#msg-overlay header {

@@ -1,10 +1,14 @@
 #careers {
   background-color: $deep-light;
 
+  .background{
+  background-color: $deep-light;
+  border: #fff solid 1px !important;
+  border-radius: 12px !important;
+}
   section {
     nav {
-      background-color: $deep;
-
+      @extend .background;
       a span, button {
         color: $light;
       }
@@ -14,13 +18,13 @@
       }
     }
     .jobs-home-soho__search-box-container{
-      background-color: $deep;
+      @extend .background;
       h2{
         color: $light;
       }
     }
     .jobs-home-soho-suggested-search__container{
-      background-color: $deep;
+      @extend .background;
       h2{
         color: $light;
       }
@@ -28,7 +32,65 @@
         color: $light;
       }
        a{
+         padding: .8rem;
         border: 1px solid $accent;
+      }
+    }
+    .jobs-home-galapagos-promo-board section{
+      @extend .background;
+      p, span{
+        color: $light;
+      }
+      footer a{
+        border: 1px solid transparent;
+      }
+    }
+    section.jobs-blended-container{
+      @extend .background;
+      .jobs-jymbii{
+        svg{
+          color: $accent;
+        }
+        h2{
+          color: $light;
+        }
+        p{
+          color: $accent;
+        }
+        ul li.jobs-jymbii__list-item .job-card-square__main{
+          a{
+            background: #16212b;
+            border: #fff 1px solid;
+            border-radius: 10px;
+            time{
+              color: $light;
+            }
+            .job-card-container__apply-method{
+              color: $light;
+            }
+            .artdeco-entity-lockup{
+              .artdeco-entity-lockup__title, .job-card-container__company-name{
+                color: $light;
+              }
+              .job-card-container__metadata-item{
+                color: $accent;
+              }
+            }
+          }
+          .job-card-square__actions-container{
+            .job-card-square__badge{
+              color: $light;
+            }
+          }
+          .job-card-square__insight .job-flavors__flavor{
+            svg{
+              color: $accent;
+            }
+            span.job-flavors__label{
+              color: $light;
+            }
+          }
+        }
       }
     }
   }
