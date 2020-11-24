@@ -2,3 +2,10 @@ $deep: #16212b !important;
 $deep-light: #182b3c !important;
 $light: #f0f8ff !important;
 $accent: #1da1f2 !important;
+
+
+.background{
+  background-color: $deep-light;
+  border: #fff solid 1px !important;
+  border-radius: 12px !important;
+}

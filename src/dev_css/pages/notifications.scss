@@ -1,0 +1,70 @@
+.nt-content {
+  background: $deep-light;
+
+  .neptune-grid.three-column {
+    section.ad-banner-container {
+
+    }
+
+    aside.left-rail .sticky {
+      background-color: $deep;
+
+      .nt-content__rail-container {
+        background-color: $deep;
+
+        section {
+          .p4, .nt-settings-summary {
+            background-color: $deep;
+          }
+
+          .p4 {
+            h3, p {
+              color: $light;
+            }
+          }
+
+          .nt-settings-summary {
+            color: $accent;
+          }
+
+          span {
+            color: $accent;
+          }
+
+          a {
+            color: $light;
+          }
+        }
+      }
+    }
+
+    .core-rail .artdeco-card {
+      header {
+        background-color: $deep;
+
+        h4 {
+          color: $light;
+        }
+      }
+
+      article.nt-card {
+        background-color: $deep;
+
+        .nt-card__headline {
+          span {
+            color: $light;
+          }
+        }
+        .nt-card__time-ago{
+          color: $light;
+        }
+        svg{
+          color: $accent;
+        }
+      }
+    }
+
+    aside.right-rail {
+    }
+  }
+}

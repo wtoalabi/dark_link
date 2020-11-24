@@ -1,11 +1,6 @@
 #careers {
   background-color: $deep-light;
 
-  .background{
-  background-color: $deep-light;
-  border: #fff solid 1px !important;
-  border-radius: 12px !important;
-}
   section {
     nav {
       @extend .background;
