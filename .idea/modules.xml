@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/darker_link.iml" filepath="$PROJECT_DIR$/.idea/darker_link.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../darker_link_v1/.idea/darker_link_v1.iml" filepath="$PROJECT_DIR$/../darker_link_v1/.idea/darker_link_v1.iml" />
     </modules>
   </component>
 </project>

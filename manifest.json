@@ -1,12 +1,21 @@
 {
   "manifest_version": 2,
 
-  "name": "Turn LinkedIn Dark Theme On",
+  "name": "Browse LinkedIn in Dark Theme",
   "description": "This extension implements dark theme for LinkedIn",
-  "version": "2",
+  "version": "0.0.1",
   "web_accessible_resources": [
     "images/*"
   ],
+  "browser_action": {
+    "default_icon": "src/assets/images/icon.png",
+    "popup": "shopcmp.htm"
+  },
+  "icons": {
+    "16": "src/assets/images/icon16.png",
+    "48": "src/assets/images/icon48.png",
+    "128": "src/assets/images/icon128.png"
+  },
   "content_scripts": [{
     "css": ["src/assets/app.css"],
     "js": ["src/assets/app.js"],
