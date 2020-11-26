@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Browse LinkedIn in Dark Theme",
   "description": "This extension implements dark theme for LinkedIn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "web_accessible_resources": [
     "src/assets/images/*"
   ],
