@@ -31,7 +31,8 @@ function setThemeIcon() {
     let img = document.createElement("img");
     img.setAttribute("title", "Toggle Dark Theme");
     //img.setAttribute("data-tootip", "Toggle Dark Theme");
-    img.src = `chrome-extension://${id}/images/dark_icon.svg`;
+    img.src = `chrome-extension://${id}/src/assets/images/dark_icon.svg`;
+    console.log(img);
     img.classList.add("theme_icon");
     listMenu.appendChild(img);
     img.addEventListener("click", toggleTheme)
