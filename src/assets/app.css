@@ -1,4 +1,8 @@
 .background,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4,
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section,
 .dark_theme #careers section section.jobs-blended-container,
 .dark_theme #careers section .jobs-home-galapagos-promo-board section,
 .dark_theme #careers section .jobs-home-soho__search-carousel-container,
@@ -25,6 +29,10 @@
 }
 
 .dark_theme .background,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4,
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section,
 .dark_theme #careers section section.jobs-blended-container,
 .dark_theme #careers section .jobs-home-galapagos-promo-board section,
 .dark_theme #careers section .jobs-home-soho__search-carousel-container,
@@ -62,6 +70,10 @@
 }
 
 .dark_theme .background,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4,
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section,
 .dark_theme #careers section section.jobs-blended-container,
 .dark_theme #careers section .jobs-home-galapagos-promo-board section,
 .dark_theme #careers section .jobs-home-soho__search-carousel-container,
@@ -130,6 +142,72 @@
   border: 1px solid #fff !important;
 }
 
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .feed-shared-aggregated-content__list-item .feed-shared-update-v2--aggregated .feed-shared-entity__description-container {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .feed-shared-aggregated-content__list-item .feed-shared-entity__content-wrapper,
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .feed-shared-aggregated-content__list-item .feed-shared-entity__subtitle {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .feed-shared-announcement .feed-shared-announcement__description-container h2 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .comments-quick-comments .comments-quick-comments__reply-button button {
+  border: 1px solid #1da1f2 !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .comments-quick-comments .comments-quick-comments__reply-button button span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comment-box .comments-comment-box__form-container form .comments-comment-texteditor .comments-comment-box-comment__text-editor > div {
+  background: none !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comment-box .comments-comment-box__form-container form .comments-comment-texteditor .ember-view {
+  background: none !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comment-box .comments-comment-box__form-container form .comments-comment-texteditor .ember-view .artdeco-hoverable-trigger {
+  background: none !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comment-box .comments-comment-box__form-container form .comments-comment-texteditor .ember-view .artdeco-hoverable-trigger button {
+  margin: 0 2px !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-sort-order-toggle .comments-sort-order-toggle__dropdown button span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list article .comments-comment-item__post-meta .comments-post-meta__headline {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list article .comments-comment-item__options time {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list article .social-details-social-activity .comments-comment-item__social-actions .comments-comment-social-bar .artdeco-button__text span,
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list article .social-details-social-activity .comments-comment-item__social-actions .comments-comment-social-bar button span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list article .comments-highlighted-comment-item-content-body {
+  background: none !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list article .comments-highlighted-comment-item-content-body .comments-highlighted-comment-item__show-more-text p span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-update-v2__comments-container .comments-comments-list__show-previous-container button span {
+  color: #1da1f2 !important;
+}
+
 .dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .display-flex .feed-shared-actor__meta span.feed-shared-actor__description,
 .dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 svg {
   color: #1da1f2 !important;
@@ -147,15 +225,41 @@
   color: #000 !important;
 }
 
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .feed-shared-update-v2__content.feed-shared-article--with-large-image .feed-shared-article__description-container h2.feed-shared-article__title span,
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .feed-shared-update-v2__content.feed-shared-article--with-large-image .feed-shared-article__description-container h3.feed-shared-article__subtitle {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .social-details-first-prompt-block button {
+  color: #f0f8ff !important;
+}
+
 .dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .social-details-social-counts button span {
   color: #f0f8ff !important;
 }
 
-.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-social-actions span button .artdeco-button__text {
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .feed-shared-social-actions .artdeco-button__text,
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .social-details-first-prompt-block p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .comments-comment-item__replies-list article .comments-reply-item__post-meta .comments-post-meta__headline {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .comments-comment-item__replies-list article .comments-reply-item-content-body {
+  background: none !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .ember-view .relative .feed-shared-update-v2 .social-details-social-activity .comments-comment-item__replies-list article .comments-reply-item-content-body .comments-comment-item__main-content span {
   color: #f0f8ff !important;
 }
 
 .dark_theme #voyager-feed .ember-view .core-rail .share-box-feed-entry__bottom-bar-wrapper .artdeco-button__text {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #voyager-feed .ember-view .core-rail .feed-shared-header__text-view {
   color: #f0f8ff !important;
 }
 
@@ -171,6 +275,10 @@
 
 .dark_theme #voyager-feed .ember-view aside.right-rail .mb2 section.artdeco-card .feed-follows-module .feed-follows-module__list li .feed-follows-module-recommendation__description p {
   color: #1da1f2 !important;
+}
+
+.dark_theme #mynetwork .body {
+  background-color: #182b3c !important;
 }
 
 .dark_theme aside.left-rail .sticky .artdeco-card section .artdeco-dropdown {
@@ -598,13 +706,417 @@
   color: #1da1f2 !important;
 }
 
+.dark_theme #profile-wrapper {
+  background-color: #182b3c !important;
+}
+
+.dark_theme #profile-wrapper .tab-background,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-interests-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-recent-activity-section-v2,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-accomplishments-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.ember-view .pds-clickable-pane {
+  border-radius: 10px;
+  border: 1px solid #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-profile-sticky-header {
+  background-color: #16212b !important;
+  border: 1px solid #f0f8ff !important;
+  border-radius: 13px;
+  margin-top: 1px;
+}
+
+.dark_theme #profile-wrapper .pv-profile-sticky-header .pv-profile-sticky-header {
+  background-color: #16212b !important;
+}
+
+.dark_theme #profile-wrapper .pv-profile-sticky-header .artdeco-entity-lockup__title,
+.dark_theme #profile-wrapper .pv-profile-sticky-header .artdeco-entity-lockup__subtitle {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-profile-sticky-header button {
+  background: #16212b !important;
+  border: 1px solid #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-profile-sticky-header button span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .display-flex .pv-s-profile-actions__overflow button {
+  color: #f0f8ff !important;
+  border: 1px solid #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .display-flex .pv-s-profile-actions__overflow a svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .display-flex .pv-top-card--experience-list-item span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .pv-top-card--list li {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .pv-top-card--list .pv-top-card__distance-badge span {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .pv-top-card--list.pv-top-card--list-bullet .t-black {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 .pv-top-card--list.pv-top-card--list-bullet .inline-block::after {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 h2,
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 ul li,
+.dark_theme #profile-wrapper .pv-content .core-rail .ph5 a svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pv-top-card-row section ul .poc-opportunities-card .poc-opportunities-card__title,
+.dark_theme #profile-wrapper .pv-content .core-rail .pv-top-card-row section ul .poc-opportunities-card .poc-opportunities-card__title a,
+.dark_theme #profile-wrapper .pv-content .core-rail .pv-top-card-row section ul .poc-opportunities-card svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section .pv-highlights-section__list .pv-highlight-entity--column {
+  background: transparent !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section .pv-highlights-section__heading {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section .pv-highlight-entity__card-action-container .pv-highlight-entity__details .pv-highlight-entity__primary-text {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section .pv-highlight-entity__card-action-container .pv-highlight-entity__details .pv-highlight-entity__secondary-text {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section .pv-entity__company-summary-info span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section .pv-entity__summary-info-v2 span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section .pv-entity__extra-details p {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress .pds-ge-entry-card .pds-ge-entry-card__headline,
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress .pds-ge-entry-card .pds-ge-entry-card__sub-text {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress .pds-ge-entry-card .pds-ge-entry-card__card-footer .action-buttons .pds-ge-entry-card__launch-button {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress .pds-ge-entry-card .pds-ge-entry-card__card-footer svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress .pds-ge-entry-card .pds-ge-entry-card__card-footer button span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress header h2 strong {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pds-pcm-progress button svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section .pv-profile-section__card-heading,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section button p.t-black {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section .pab-featured-null-card__dropdown-container button p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section button svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section .artdeco-carousel__slider .artdeco-carousel__item-container .pab-featured-item__card-container .full-height {
+  background: transparent !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section .artdeco-carousel__slider .artdeco-carousel__item-container .pab-featured-item__card-container .ph3 .lt-line-clamp {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pab-featured-section .artdeco-carousel__slider .artdeco-carousel__item-container .pab-featured-item__card-container .ph3 .inline-show-more-text {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-accomplishments-section .pv-accomplishments-block__summary-list {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-accomplishments-section .pv-accomplishments-block__list p.pv-accomplishment-entity__description,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-accomplishments-section .pv-accomplishments-block__list .pv-accomplishment-entity__date,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-accomplishments-section .pv-accomplishments-block__list .pv-accomplishment-entity__title,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-accomplishments-section .pv-accomplishments-block__list .pv-accomplishment-entity__proficiency {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section#certifications-section .pv-profile-section__card-item {
+  background: #16212b !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section#certifications-section .pv-profile-section__card-item .pv-entity__extra-details {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section .pv-dashboard-section__title-wrapper h2,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section .pv-dashboard-section__title-wrapper h3 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section .pv-dashboard-section__card .pv-dashboard-section__card-action h4 {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section .pv-dashboard-section__card .pv-dashboard-section__card-action p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section .pv-dashboard-section__card .pv-dashboard-section__card-action svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-dashboard-section .pv-dashboard-section__card a .t-normal {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-recent-activity-section-v2 .pv-recent-activity-section__follower-count {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-recent-activity-section-v2 .pv-recent-activity-section-v2__summary .pv-recent-activity-item-v2--expanded a .pv-recent-activity-item-v2__summary-info h3 div,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-recent-activity-section-v2 .pv-recent-activity-section-v2__summary .pv-recent-activity-item-v2--expanded a .pv-recent-activity-item-v2__summary-info .pv-recent-activity-item-v2__social-counts {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-recent-activity-section-v2 .pv-recent-activity-section-v2__summary .pv-recent-activity-item-v2--expanded a .pv-recent-activity-item-v2__summary-info .pv-recent-activity-item-v2__message {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-about__summary-text span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-skill-categories-section__top-skills .pv-skill-category-entity__highlights-list .pv-skill-entity__highlight-text p a {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-profile-section__section-info li .pv-entity__summary-info h3,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-profile-section__section-info li .pv-entity__summary-info p,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-profile-section__section-info li .pv-entity__summary-info h4 span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-profile-section__section-info li .pv-entity__summary-info .pv-entity__location span {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section .pv-profile-section__section-info li .pv-entity__description {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section #languages-expandable-content .pv-accomplishments-block__summary-list-item {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section h2.pv-profile-section__card-heading,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section a.pv-skills-section__add-text {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section .pv-skill-categories-section__pending-endorsements a.pv-skill-section__pending-prompt {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section .pv-skill-category-entity__name-text,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section .pv-skill-category-entity__endorsement-count {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section .pv-skill-entity__default-highlight a {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section #skill-categories-expanded {
+  background-color: #16212b !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-skill-categories-section #skill-categories-expanded .pv-skill-categories-section__secondary-skill-heading {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-interests-section h2 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt {
+  background: transparent !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt button svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt .display-flex h2 {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt .display-flex p {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt .pv-skills-prompt__canditate button.pv-skills-prompt__canditate-button {
+  border: 1px solid #fff;
+  border-radius: 11px;
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt .pv-skills-prompt-privacy-message .pv-skills-prompt-privacy-message__text,
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt .pv-skills-prompt-privacy-message a {
+  color: #f0f8ff !important;
+  background: transparent !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.artdeco-container-card.pv-profile-section.pv-about-section {
+  border: 1px solid #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.artdeco-container-card.pv-profile-section.pv-about-section #line-clamp-show-more-button {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail section.artdeco-container-card.pv-profile-section.pv-about-section p.pv-about__summary-text {
+  background: transparent !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pab-featured-section__action-container .artdeco-carousel__item .pab-featured-item__card-container .full-height {
+  background: none !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .core-rail .pab-featured-section__action-container .artdeco-carousel__item .pab-featured-item__card-container .ph3 .lt-line-clamp,
+.dark_theme #profile-wrapper .pv-content .core-rail .pab-featured-section__action-container .artdeco-carousel__item .pab-featured-item__card-container .ph3 .inline-show-more-text {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail {
+  background-color: #16212b !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section {
+  background-color: #16212b !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section .pv-view-public-profile-section a span,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section .pv-view-public-profile-section span svg,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section .pv-view-public-profile-section a.pv-add-secondary-language-section__button span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section hr.artdeco-divider {
+  border: 1px solid #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section .pv-add-secondary-language-section a span,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-info-section .pv-add-secondary-language-section span svg {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-deferred-area .pv-browsemap-section {
+  background-color: #16212b !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-deferred-area .pv-browsemap-section h2 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-deferred-area .pv-browsemap-section .browsemap .pv-browsemap-section__member-container button svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-deferred-area .pv-browsemap-section .browsemap .pv-browsemap-section__member-container .pv-browsemap-section__member-detail h3 span {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-deferred-area .pv-browsemap-section .browsemap .pv-browsemap-section__member-container .pv-browsemap-section__member-headline > div {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.ad-banner-container iframe body main {
+  background: #16212b;
+  border: 1px solid #fff;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-pymk__container section {
+  background: #16212b !important;
+  border: 1px #f0f8ff !important solid;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-pymk__container section h2 {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-pymk__container section li.pv-pymk-section__member-container a .pv-pymk-section__member-detail h3 span,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-pymk__container section li.pv-pymk-section__member-container a .pv-pymk-section__member-detail .pv-pymk-section__member-headline div {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail .pv-profile-pymk__container section li.pv-pymk-section__member-container .pv-pymk-section__member-cta button svg {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4 .logo-text {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4 h3 .attributed-text span {
+  color: #f0f8ff !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4 li.learning-recommendation-item > div a > div {
+  color: #1da1f2 !important;
+}
+
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4 li.learning-recommendation-item > div div > span {
+  color: #f0f8ff !important;
+}
+
 .dark_theme .background,
 .dark_theme #careers section nav,
 .dark_theme #careers section .jobs-home-soho__search-box-container,
 .dark_theme #careers section .jobs-home-soho-suggested-search__container,
 .dark_theme #careers section .jobs-home-soho__search-carousel-container,
 .dark_theme #careers section .jobs-home-galapagos-promo-board section,
-.dark_theme #careers section section.jobs-blended-container {
+.dark_theme #careers section section.jobs-blended-container,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-highlights-section,
+.dark_theme #profile-wrapper .pv-content .core-rail section.pv-profile-section.experience-section,
+.dark_theme #profile-wrapper .pv-content .core-rail .profile-detail .pv-profile-section.pv-skills-prompt,
+.dark_theme #profile-wrapper .pv-content .pv-content__right-rail section.pv-course-recommendations .ph4 {
   background-color: #182b3c !important;
   border: #fff solid 1px !important;
   border-radius: 12px !important;

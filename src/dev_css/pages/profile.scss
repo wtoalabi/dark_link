@@ -1,0 +1,520 @@
+#profile-wrapper {
+  background-color: $deep-light;
+
+  .tab-background {
+    border-radius: 10px;
+    border: 1px solid $light;
+  }
+
+  .pv-profile-sticky-header {
+    background-color: $deep;
+    border: 1px solid $light;
+    border-radius: 13px;
+    margin-top: 1px;
+
+    .pv-profile-sticky-header {
+      background-color: $deep;
+    }
+
+    .artdeco-entity-lockup__title, .artdeco-entity-lockup__subtitle {
+      color: $light;
+    }
+
+    button {
+      background: $deep;
+      border: 1px solid $light;
+
+      span {
+        color: $light;
+      }
+    }
+
+  }
+
+  .pv-content {
+    .core-rail {
+      .ph5 {
+        .display-flex {
+          .pv-s-profile-actions__overflow {
+            button {
+              color: $light;
+              border: 1px solid $accent;
+            }
+
+            a svg {
+              color: $light;
+            }
+          }
+
+          .pv-top-card--experience-list-item span {
+            color: $light;
+          }
+        }
+
+        .pv-top-card--list {
+          li {
+            color: $light;
+          }
+
+          .pv-top-card__distance-badge span {
+            color: $accent;
+          }
+        }
+
+        .pv-top-card--list.pv-top-card--list-bullet {
+          .t-black {
+            color: $light;
+          }
+
+          .inline-block::after {
+            color: $accent;
+          }
+        }
+
+        h2, ul li, a svg {
+          color: $light;
+        }
+      }
+
+      .pv-top-card-row section ul {
+        .poc-opportunities-card {
+          .poc-opportunities-card__title, .poc-opportunities-card__title a, svg {
+            color: $light;
+          }
+        }
+      }
+
+      section.pv-highlights-section {
+        @extend .background;
+
+        .pv-highlights-section__list {
+          .pv-highlight-entity--column {
+            background: transparent !important;
+          }
+        }
+
+        .pv-highlights-section__heading {
+          color: $light;
+        }
+
+        .pv-highlight-entity__card-action-container {
+          .pv-highlight-entity__details {
+            .pv-highlight-entity__primary-text {
+              color: $light;
+            }
+
+            .pv-highlight-entity__secondary-text {
+              color: $accent;
+            }
+          }
+        }
+      }
+
+      section.pv-profile-section.experience-section {
+        @extend .background;
+
+        .pv-entity__company-summary-info span {
+          color: $light;
+        }
+
+        .pv-entity__summary-info-v2 span {
+          color: $light;
+        }
+
+        .pv-entity__extra-details p {
+          color: $accent;
+        }
+      }
+
+      section.ember-view .pds-clickable-pane {
+        @extend .tab-background;
+      }
+
+      .pds-pcm-progress {
+        .pds-ge-entry-card {
+          .pds-ge-entry-card__headline, .pds-ge-entry-card__sub-text {
+            color: $light;
+          }
+
+          .pds-ge-entry-card__card-footer {
+            .action-buttons .pds-ge-entry-card__launch-button {
+              color: $accent;
+            }
+
+            svg {
+              color: $accent;
+            }
+
+            button span {
+              color: $light;
+            }
+          }
+        }
+
+        header h2 strong {
+          color: $accent;
+        }
+
+        button svg {
+          color: $light;
+        }
+      }
+
+      section.pab-featured-section {
+        @extend .tab-background;
+
+        .pv-profile-section__card-heading, button p.t-black {
+          color: $light;
+        }
+
+        .pab-featured-null-card__dropdown-container button p {
+          color: $light;
+        }
+
+        button svg {
+          color: $light;
+        }
+
+        .artdeco-carousel__slider {
+          .artdeco-carousel__item-container {
+            .pab-featured-item__card-container {
+              .full-height {
+                background: transparent !important;
+              }
+
+              .ph3 {
+                .lt-line-clamp {
+                  color: $light;
+                }
+
+                .inline-show-more-text {
+                  color: $accent;
+                }
+
+              }
+            }
+          }
+        }
+      }
+
+      section.pv-accomplishments-section {
+        @extend .tab-background;
+
+        .pv-accomplishments-block__summary-list {
+          color: $light;
+        }
+
+        .pv-accomplishments-block__list {
+          p.pv-accomplishment-entity__description, .pv-accomplishment-entity__date, .pv-accomplishment-entity__title, .pv-accomplishment-entity__proficiency {
+            color: $light;
+          }
+        }
+      }
+
+      section#certifications-section {
+        .pv-profile-section__card-item {
+          background: $deep;
+
+          .pv-entity__extra-details {
+            color: $accent;
+          }
+        }
+      }
+
+      section.pv-dashboard-section {
+        @extend .tab-background;
+
+        .pv-dashboard-section__title-wrapper {
+          h2, h3 {
+            color: $light;
+          }
+        }
+
+        .pv-dashboard-section__card {
+          .pv-dashboard-section__card-action {
+            h4 {
+              color: $accent;
+            }
+
+            p {
+              color: $light;
+            }
+
+            svg {
+              color: $light;
+            }
+          }
+
+          a .t-normal {
+            color: $light;
+          }
+        }
+      }
+
+      section.pv-recent-activity-section-v2 {
+        @extend .tab-background;
+
+        .pv-recent-activity-section__follower-count {
+          color: $light;
+        }
+
+        .pv-recent-activity-section-v2__summary {
+          .pv-recent-activity-item-v2--expanded a .pv-recent-activity-item-v2__summary-info {
+            h3 div, .pv-recent-activity-item-v2__social-counts {
+              color: $light;
+            }
+
+            .pv-recent-activity-item-v2__message {
+              color: $accent;
+            }
+          }
+        }
+      }
+
+      section.pv-profile-section {
+        .pv-about__summary-text span {
+          color: $light;
+        }
+
+        .pv-skill-categories-section__top-skills {
+          .pv-skill-category-entity__highlights-list .pv-skill-entity__highlight-text p a {
+            color: $light;
+          }
+        }
+
+        .pv-profile-section__section-info li {
+          .pv-entity__summary-info {
+            h3, p, h4 span {
+              color: $light;
+            }
+
+            .pv-entity__location span {
+              color: $accent;
+            }
+          }
+
+          .pv-entity__description {
+            color: $accent;
+          }
+        }
+
+        #languages-expandable-content {
+          .pv-accomplishments-block__summary-list-item {
+            color: $light;
+          }
+        }
+      }
+
+      section.pv-skill-categories-section {
+        @extend .tab-background;
+
+        h2.pv-profile-section__card-heading, a.pv-skills-section__add-text {
+          color: $light;
+        }
+
+        .pv-skill-categories-section__pending-endorsements a.pv-skill-section__pending-prompt {
+          color: $light;
+        }
+
+        .pv-skill-category-entity__name-text, .pv-skill-category-entity__endorsement-count {
+          color: $accent;
+        }
+
+        .pv-skill-entity__default-highlight a {
+          color: $light;
+        }
+
+        #skill-categories-expanded {
+          background-color: $deep;
+
+          .pv-skill-categories-section__secondary-skill-heading {
+            color: $light;
+          }
+        }
+      }
+
+      section.pv-interests-section {
+        @extend .tab-background;
+
+        h2 {
+          color: $light;
+        }
+      }
+
+      .profile-detail {
+        .pv-profile-section.pv-skills-prompt {
+          @extend .background;
+          background: transparent !important;
+
+          button svg {
+            color: $light;
+          }
+
+          .display-flex {
+            h2 {
+              color: $accent;
+            }
+
+            p {
+              color: $light;
+            }
+          }
+
+          .pv-skills-prompt__canditate {
+            button.pv-skills-prompt__canditate-button {
+              border: 1px solid #fff;
+              border-radius: 11px;
+              color: $light;
+            }
+          }
+
+          .pv-skills-prompt-privacy-message {
+            .pv-skills-prompt-privacy-message__text, a {
+              color: $light;
+              background: transparent !important;
+            }
+          }
+        }
+      }
+
+      section.artdeco-container-card.pv-profile-section.pv-about-section {
+
+        #line-clamp-show-more-button {
+          color: $accent;
+        }
+        p.pv-about__summary-text {
+          background: transparent !important;
+        }
+        border: 1px solid $light;
+      }
+
+      .pab-featured-section__action-container {
+        .artdeco-carousel__item {
+          .pab-featured-item__card-container {
+            .full-height {
+              background: none !important;
+            }
+
+            .ph3 {
+              .lt-line-clamp, .inline-show-more-text {
+                color: $light;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .pv-content__right-rail {
+      background-color: $deep;
+
+      .pv-profile-info-section {
+        background-color: $deep;
+
+        .pv-view-public-profile-section {
+          a span, span svg, a.pv-add-secondary-language-section__button span {
+            color: $light;
+          }
+        }
+
+        hr.artdeco-divider {
+          border: 1px solid $light;
+        }
+
+        .pv-add-secondary-language-section {
+          a span, span svg {
+            color: $light;
+          }
+        }
+      }
+
+      .pv-deferred-area {
+        .pv-browsemap-section {
+          background-color: $deep;
+
+          h2 {
+            color: $light;
+          }
+
+          .browsemap {
+            .pv-browsemap-section__member-container {
+              button svg {
+                color: $accent
+              }
+
+              .pv-browsemap-section__member-detail {
+                h3 span {
+                  color: $accent;
+                }
+              }
+
+              .pv-browsemap-section__member-headline > div {
+                color: $light
+              }
+            }
+          }
+        }
+      }
+
+      section.ad-banner-container iframe body main {
+        background: #16212b;
+        border: 1px solid #fff;
+      }
+
+      .pv-profile-pymk__container {
+        section {
+          background: $deep;
+          border: 1px $light solid;
+
+          h2 {
+            color: $light;
+          }
+
+          li.pv-pymk-section__member-container {
+            a {
+              .pv-pymk-section__member-detail {
+                h3 span, .pv-pymk-section__member-headline div {
+                  color: $light;
+                }
+              }
+            }
+
+            .pv-pymk-section__member-cta button svg {
+              color: $accent;
+            }
+          }
+        }
+
+      }
+
+      section.pv-course-recommendations {
+
+        .ph4 {
+          @extend .background;
+
+          .logo-text {
+            color: $light;
+          }
+
+          h3 .attributed-text span {
+            color: $light;
+          }
+
+          li.learning-recommendation-item > div {
+            a > div {
+              color: $accent;
+            }
+
+            div > span {
+              color: $light;
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+
+    }
+  }
+}
